@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Pages</title>
+
+    <!-- LINK REL START -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="framework/swipper/node_modules/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="framework/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="source/css/Home.css" />
+    <!-- LINK REL END-->
+  </head>
+  <body>
+    <!-- NAVBAR SECTION -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light bg-white"
+      data-aos="fade-down"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">LIVE OSIS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#kandidat" class="nav-link">Kandidat</a>
+            </li>
+            <li class="nav-item">
+              <a href="#charts" class="nav-link">Charts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#panitia" class="nav-link">Panitia</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- SLIDE VIDEO -->
+    <section class="home p-2" id="home">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner bg-dark-gray" role="listbox">
+          <div class="carousel-item active">
+            <img src="source/img/background-1.jpg" />
+          </div>
+          <div class="carousel-item">
+            <img src="source/img/background-2.jpg" />
+          </div>
+          <div class="carousel-item">
+            <img src="source/img/background-3.jpg" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- BLOG START -->
+    <section class="blog">
+      <section id="kandidat" class="text-center">
+        <hr class="mb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 section-intro text-center" data-aos="fade-up">
+              <h1>Kandidat</h1>
+              <div class="divider"></div>
+              <p>
+                SMK BHUMI HUSADA JAKARTA<br>
+                Mengadakan Calon Ketua Osis dan Wakil Ketua Osis
+              </p>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4" data-aos="zoom-in">
+              <div class="kandidat">
+                <div class="kandidat-img">
+                  <img src="source/img/calon1.jpeg" height="300" alt="" />
+                  <div class="icon"><i class="icon-browser"></i></div>
+                </div>
+                <h5 class="mt-5 pt-4 animate__animated animate__jello">PASLON 1</h5>
+                <p id="psln1">
+                  45.20 %
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+              <div class="kandidat">
+                <div class="kandidat-img">
+                  <img src="source/img/calon2.jpeg" height="300" alt="" />
+                  <div class="icon"><i class="icon-bargraph"></i></div>
+                </div>
+                <h5 class="mt-5 pt-4 animate__animated animate__jello">PASLON 2</h5>
+                <p id="psln2">
+                  18.23 %
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+              <div class="kandidat">
+                <div class="kandidat-img">
+                  <img src="source/img/calon3.jpeg" height="300" alt="" />
+                  <div class="icon"><i class="icon-camera"></i></div>
+                </div>
+                <h5 class="mt-5 pt-4 animate__animated animate__jello">PASLON 3</h5>
+                <p id="psln3">
+                  20.50 %
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="charts">
+        <hr class="mb-4">
+        <div class="row">
+          <div class="col-12 section-intro text-center" data-aos="fade-up">
+            <h1 class="animate__animated animate__bounce">Charts</h1>
+            <div class="divider"></div>
+            <p>
+              Bagian Ini merupakan, Infografik. Telah<br>
+              Dirancang Otomatis.
+            </p>
+          </div>
+        </div>
+        <div class="chartMenu">
+          <div class="chartCard">
+            <canvas id="myCharts" class="chartBox"></canvas>
+          </div>
+        </div>
+        <div class="chartMenu">
+          <div class="chartCard">
+            <canvas id="pieCharts" class="chartBox"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <section id="panitia">
+        <hr class="mb-4">
+        <div class="row">
+          <div class="col-12 section-intro text-center" data-aos="fade-up">
+            <h1 class="animate__animated animate__bounce">PANITIA</h1>
+            <div class="divider"></div>
+            <p>
+              Berikut Panitia yang Ikut Serta<br>
+              Dalam Membantu dalam Pemilihan Kandidat<br>
+              Osis, Yaitu:
+            </p>
+          </div>
+        </div>
+        <div class="main">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="source/img/pic2.jpg">
+                <div class="info">
+                  <h3>Ibenrm01</h3>
+                  <p>Seksi Perhitungan.</p>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="source/img/pic1.jpg">
+                <div class="info">
+                  <h3>Juhaidi</h3>
+                  <p>Ketua Panitia.</p>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="source/img/pic4.jpg">
+                <div class="info">
+                  <h3>Rifa</h3>
+                  <p> Wakil Panitia.</p>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="source/img/pic1.jpg">
+                <div class="info">
+                  <h3>Salsabila</h3>
+                  <p> Seksi Perhitungan.</p>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="source/img/pic4.jpg">
+                <div class="info">
+                  <h3>Adrian</h3>
+                  <p> Seksi Humas.</p>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+    </section>
+    <!-- BLOG END -->
+    <!-- FOOTER & COPYRIGHT START-->
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Services</h3>
+              <ul>
+                <li><a href="#">Web design</a></li>
+                <li><a href="#">Development</a></li>
+                <li><a href="#">Hosting</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>About</h3>
+              <ul>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>About Us</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Nesciunt nihil mollitia numquam at dolorum ducimus ad assumenda,
+                sequi similique, suscipit illo possimus saepe. Tempore, quasi!
+                Sequi quas sed reiciendis fugiat!
+              </p>
+            </div>
+            <div class="col item social">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a
+              ><a href="#"><i class="fa-brands fa-instagram"></i></a
+              ><a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+          <p class="copyright">Copyright &copy; 2022. Ibenrm01.</p>
+        </div>
+      </footer>
+    </div>
+    <!-- FOOTER & COPYRIGHT END -->
+
+    <!-- LINK SCRIPT START -->
+    <script src="framework/swipper/node_modules/swiper/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="framework/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="framework/charts/node_modules/chart.js/dist/chart.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="module" src="source/js/Home.js"></script>
+    <!-- LINK SCRIPT END -->
+  </body>
+</html>
